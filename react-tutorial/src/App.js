@@ -8,6 +8,7 @@ import MyApp from './05-events/Lesson';
 import Lesson6 from './06-conditional_rendering/Lesson';
 import Lesson7 from './07-lists/Leson';
 import Table from './08-fragment_&_css/Lesson';
+import Form from './9-form/Lesson';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <MyApp /> */}
       {/* <Lesson6 /> */}
       {/* <Lesson7 /> */}
-      <Table />
+      {/* <Table /> */}
+      <Form />
     </div>
   );
 }
