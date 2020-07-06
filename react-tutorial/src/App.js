@@ -10,6 +10,7 @@ import Lesson7 from './07-lists/Leson';
 import Table from './08-fragment_&_css/Lesson';
 import Form from './9-form/Lesson';
 import FormLesson11 from './11-refs/Lesson';
+import LessonHOC from './12-HOCs/Lesson';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       {/* <Lesson7 /> */}
       {/* <Table /> */}
       {/* <Form /> */}
-      <FormLesson11 />
+      {/* <FormLesson11 /> */}
+      <LessonHOC />
     </div>
   );
 }
