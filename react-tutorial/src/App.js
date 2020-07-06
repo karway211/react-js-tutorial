@@ -15,6 +15,7 @@ import LessonPortal from './13-portals/Lesson';
 import LessonContext from './14-Context/Lesson';
 import News from './15-api/containers/news/news';
 import News2 from './16-api/containers/news/news';
+import AppRouter from './17-router/Lesson';
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
       {/* <LessonPortal /> */}
       {/* <LessonContext /> */}
       {/* <News /> */}
-      <News2 />
+      {/* <News2 /> */}
+      <AppRouter />
     </div>
   );
 }
