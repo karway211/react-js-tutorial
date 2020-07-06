@@ -11,6 +11,7 @@ import Table from './08-fragment_&_css/Lesson';
 import Form from './9-form/Lesson';
 import FormLesson11 from './11-refs/Lesson';
 import LessonHOC from './12-HOCs/Lesson';
+import LessonPortal from './13-portals/Lesson';
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       {/* <Table /> */}
       {/* <Form /> */}
       {/* <FormLesson11 /> */}
-      <LessonHOC />
+      {/* <LessonHOC /> */}
+      <LessonPortal />
     </div>
   );
 }
