@@ -13,6 +13,7 @@ import FormLesson11 from './11-refs/Lesson';
 import LessonHOC from './12-HOCs/Lesson';
 import LessonPortal from './13-portals/Lesson';
 import LessonContext from './14-Context/Lesson';
+import News from './15-api/containers/news/news';
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
       {/* <FormLesson11 /> */}
       {/* <LessonHOC /> */}
       {/* <LessonPortal /> */}
-      <LessonContext />
+      {/* <LessonContext /> */}
+      <News />
     </div>
   );
 }
