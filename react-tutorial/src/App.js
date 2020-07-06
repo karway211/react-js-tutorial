@@ -14,6 +14,7 @@ import LessonHOC from './12-HOCs/Lesson';
 import LessonPortal from './13-portals/Lesson';
 import LessonContext from './14-Context/Lesson';
 import News from './15-api/containers/news/news';
+import News2 from './16-api/containers/news/news';
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
       {/* <LessonHOC /> */}
       {/* <LessonPortal /> */}
       {/* <LessonContext /> */}
-      <News />
+      {/* <News /> */}
+      <News2 />
     </div>
   );
 }
