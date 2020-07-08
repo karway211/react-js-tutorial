@@ -9,10 +9,18 @@ import Home from './17-router/components/home/home';
 import Contacts from './17-router/components/contacts/contacts';
 import Posts from './17-router/components/posts/posts';
 import AppRouter from './17-router/Lesson';
+import AppRouter1 from './18-router/Lesson';
 
 ReactDOM.render(
   <BrowserRouter>
   {/* <App /> */}
+    {/* <AppRouter>
+      <Switch>
+        <Route exact path='/' component={Home} />
+        <Route path='/contacts' component={Contacts} />
+        <Route path='/posts' component={Posts} />
+      </Switch>
+    </AppRouter> */}
     <AppRouter>
       <Switch>
         <Route exact path='/' component={Home} />
