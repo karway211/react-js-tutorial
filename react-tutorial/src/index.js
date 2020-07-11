@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
-import App from './19_redux_modules/App';
+import App from './App';
+// import App from './19_redux_modules/App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
@@ -22,7 +22,7 @@ import store from './19_redux_modules/store';
 
 ReactDOM.render(
   <BrowserRouter>
-  {/* <App /> */}
+  <App />
     {/* <AppRouter>
       <Switch>
         <Route exact path='/' component={Home} />
@@ -39,9 +39,9 @@ ReactDOM.render(
         <Route path='*' component={Error} />
       </Switch>
     </AppRouter> */}
-    <Provider store={store}>
+    {/* <Provider store={store}>
       <App />
-    </Provider>
+    </Provider> */}
   </BrowserRouter>,
   document.getElementById('root')
 );
