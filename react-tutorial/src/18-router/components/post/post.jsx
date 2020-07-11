@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import './post.css';
+// import './post.css';
 
 class Post extends Component {
   state = {

@@ -34,7 +34,7 @@ function App() {
       {/* <LessonContext /> */}
       {/* <News /> */}
       {/* <News2 /> */}
-      <AppRouter />
+      {/* <AppRouter /> */}
     </div>
   );
 }
