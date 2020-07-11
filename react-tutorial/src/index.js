@@ -1,20 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
+import App from './19_redux_modules/App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import store from './19_redux_modules/store';
 
 // import Home from './17-router/components/home/home';
 // import Contacts from './17-router/components/contacts/contacts';
 // import Posts from './17-router/components/posts/posts';
 // import AppRouter from './17-router/Lesson';
-import Home from './18-router/components/home/home';
-import Contacts from './18-router/components/contacts/contacts';
-import Posts from './18-router/components/posts/posts';
-import Post from './18-router/components/post/post';
-import AppRouter from './18-router/Lesson';
-import Error from './18-router/components/error/error';
+//=======================================================================
+// import Home from './18-router/components/home/home';
+// import Contacts from './18-router/components/contacts/contacts';
+// import Posts from './18-router/components/posts/posts';
+// import Post from './18-router/components/post/post';
+// import AppRouter from './18-router/Lesson';
+// import Error from './18-router/components/error/error';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -26,7 +30,7 @@ ReactDOM.render(
         <Route path='/posts' component={Posts} />
       </Switch>
     </AppRouter> */}
-    <AppRouter>
+    {/* <AppRouter>
       <Switch>
         <Route exact path='/' component={Home} />
         <Route path='/contacts' component={Contacts} />
@@ -34,7 +38,10 @@ ReactDOM.render(
         <Route path='/posts/:id' component={Post} />
         <Route path='*' component={Error} />
       </Switch>
-    </AppRouter>
+    </AppRouter> */}
+    <Provider store={store}>
+      <App />
+    </Provider>
   </BrowserRouter>,
   document.getElementById('root')
 );
